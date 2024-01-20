@@ -15,7 +15,7 @@ const io = socketIo(server);
 app.use(cors());
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World From me!')
 })
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
